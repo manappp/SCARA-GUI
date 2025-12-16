@@ -23,27 +23,49 @@ The system allows real-time visualization, Cartesian control (X–Y–Z), manual
 └── README.md
 
 Features:
+
 -Real-time 2D SCARA robot visualization
+
 -Serial communication (COM port & baud rate selection)
+
 -Cartesian control (X, Y, Z in mm)
+
 -Manual jog control (X+/X−, Y+/Y−)
+
 -Gripper control (%)
+
 -Save & execute motion sequences
+
 -Technologies
+
+
 -Qt 6
+
 -C++
+
 -Qt Widgets
+
 -Qt Serial Port
 
+
 Requirements:
+
 -PC (GUI)
+
 -Qt 6.9.3 or newer
+
 -MinGW 64-bit (Windows)
+
 -Qt Creator
+
 -Robot Hardware
+
 -SCARA robot (2-DOF + Z axis)
+
 -Arduino Mega or compatible MCU
+
 -Stepper motor drivers (TB6600 / TMC series)
+
 -USB serial connection
 
 <img width="2157" height="1249" alt="image" src="https://github.com/user-attachments/assets/5d0f9543-b1a1-4686-8956-a02e5a5edc5c" />
